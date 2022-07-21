@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.w{
+	position: relative;
+    width: 1230px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*nav*/
+.login{
+	position: relative;
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	background-color: #f2f2f2;
+	border: 1px solid #e5e5e5;
+	font-size: 12px;
+	color: #999;
+	z-index: 9999;
+}
+.login .contener{
+	margin: 0px auto;
+	width: 1230px;
+	height: 26px;
+}
+.login .left{
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+}
+.login .left a{
+	font-size: 12px;
+	color: #999;
+}
+.login .left a:hover{
+	color: #f44;
+	text-decoration: underline;
+}
+.login .right{
+	float: right;
+	display: inline-block;
+	font-size: 12px;
+	color: #999;
+}
+.login .spacer{
+	float: right;
+	display: inline-block;
+	width: 1px;
+    height: 12px;
+    margin-top: 7px;
+    padding: 0;
+    background: #ccc;
+    overflow: hidden;
+}
+.login .right span{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.login .shou{
+	position: relative;
+	background:url(../images/index/head_sprite.png) no-repeat right -305px;
+    padding: 0 21px 0 8px;
+    box-sizing: border-box;
+}
+
+.login .shou .cover{
+	display: none;
+	position: absolute;
+	left: -10px;
+}
+.login .shou:hover .cover{
+	display: block;
+}
+.login .shou .cover li{
+	width: 85px;
+	height: 25.6px;
+	background-color: #F6F6F6;
+	color: #999;
+	cursor: pointer;
+	text-align: center;
+}
+.header{
+	position: relative;
+	margin-bottom: 10px;
+    width: 100%;
+    height:129px;
+    background-color: white;
+    border-bottom: 3px solid pink;
+    box-shadow: 0px 0px 5px lightgray;
+}
+.header .w{
+	height: 132px !important;
+}
+.h-left{
+   float: left;
+   position: relative;
+   width: 200px;
+   height: 120px;
+   text-align: center;
+}
+.h-left img{
+	width: 110px;
+}
+.h-nav{
+	position: absolute;
+	left: 220px;
+	bottom: -2px;
+	width: 1600px;
+	height: 40px;
+}
+.h-nav li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 0px 25px;
+	z-index: 999;
+}
+.h-nav li:hover{
+	background-color: pink;
+}
+.h-nav li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #000;
+}
+.h-nav .h-current{
+	/*border-bottom: 5px solid pink;*/
+	background-color: pink;
+}
+.h-nav .h-current a{
+	color: white;
+}
+.header .text{
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+    font-size: 30px;
+    font-family: "微软雅黑";
+    color: pink;
+    padding-left: 5px;
+    line-height: 80px;
+}
+.sousuo{
+    position: relative;
+    width: 600px;
+    height: 40px;
+    background-color: pink;
+    margin: 20px auto;
+    border: 2px solid pink;
+    padding-left: 1px;
+}
+.sousuo input{
+    width: 75%;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+.sousuo button{
+    position: absolute;
+    top:0px;
+    right: 2px;
+    width: 23%;
+    height: 40px;
+    text-align: center;
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: none;
+}
+.nav{
+    height: 45px;
+}
+.nav .spfl{
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bolder;
+    background-color: pink;
+}
+.n-left,.n-right{
+    display: inline-block;
+}
+.n-right{
+    width: 600px;
+    height: 40px;
+}
+.n-right a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+}
+.footer{
+	width: 100%;
+	height: 310px;
+	background-color:#EAEAEA;
+}
+.footer .f1{
+	width: 100%;
+	height: 42px;
+	padding: 30px 0px;
+	border-bottom: 1px solid gainsboro;
+}
+.footer .f1 li{
+	float: left;
+	text-align: center;
+	width: 25%;
+	height: 100%;
+	font-size: 18px;
+	font-weight:700;
+	color: #444;
+	line-height: 42px;
+}
+.footer .f1 li i{
+	display: inline-block;
+	margin-right:5px;
+	width: 36px;
+	height: 42px;
+	vertical-align: middle;
+}
+.footer .f1 li:nth-child(1) i{
+	background: url(../images/index/footer.png) 0px 0px no-repeat;
+}
+.footer .f1 li:nth-child(2) i{
+	background: url(../images/index/footer.png) 0px -42px no-repeat;
+}
+.footer .f1 li:nth-child(3) i{
+	background: url(../images/index/footer.png) 0px -85px no-repeat;
+}
+.footer .f1 li:nth-child(4) i{
+	background: url(../images/index/footer.png) 0px -128px no-repeat;
+}
+
+.footer dl{
+	margin-top: 20px;
+	float: left;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.footer dl dt{
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+}
+.footer dl dd{
+	margin-top: 5px;
+	margin-left: 60px;
+}
+.footer dl dd a{
+	color: #333;
+	font-size: 14px;
+}

@@ -1,0 +1,560 @@
+body{
+	background-color: #f8f8f8;
+}
+.header{
+	margin-bottom: 0px !important;
+}
+/*nav*/
+.nav{
+	background: #fff;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.nav li{
+	float: left;
+	width: 160px;
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	font-size: 18px;
+	text-align: center;
+}
+.nav li:first-child{
+	width: 115px;
+}
+.nav .w{
+	width: 1000px;
+	margin: 0px auto;
+}
+.nav li:last-child{
+	float: right;
+	width: 200px;
+	color: #333;
+}
+.nav li:last-child a{
+	color: #333;
+	font-size: 14px;
+}
+.nav li:last-child a:hover{
+	color: orangered;
+}
+/*banner*/
+.tu{
+    margin: 20px auto;
+    position: relative;
+	overflow: hidden;
+    width: 1000px;
+    height: 350px;
+	border: 1px solid #ededed;
+	background-color: #fff;
+}
+.tu .wrap{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 5000px;
+	height: 100%;
+}
+.tu .tu-li{
+	display: block !important;
+}
+.tu .wrap li{
+	display: none;
+	padding: 5px;
+	float: left;
+	width: 660px;
+	height: 100%;
+}
+.tu .wrap li>img{
+	float: left;
+}
+.tu .wrap li .right{
+	float:right;
+	width: 304px;
+	height: 340px;
+}
+.tu .wrap li .right .title{
+	width: 100%;
+	height: 75px;
+	line-height: 90px;
+}
+.tu .wrap li .right .title a{
+	color: #b2b2b2;
+	font-size: 14px;
+}
+.tu .wrap li .right .title a:hover{
+	color: #000;
+}
+.tu .wrap li .right .text-title{
+	width: 304px;
+	height: 52px;
+}
+.tu .wrap li .right .text-title a{
+	width: 240px;
+	line-height: 48px;
+	color: #333;
+	font-size: 22px;
+}
+.tu .wrap li .right .text-title a:hover{
+	color: orangered;
+}
+.tu .wrap li .right .text{
+	width: 240px;
+	height: 96px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 24px;
+}
+.tu .a-left,.tu .a-right{
+	position: absolute;
+	top: 45%;
+	width: 24px;
+	z-index: 999;
+	height: 46px;
+	display: none;
+	font-size: 0px;
+	background: url(../images/cookbook/x.png) no-repeat;
+}
+.tu:hover .a-left,.tu:hover .a-right{
+	display: block;
+}
+.tu .a-left{
+	left: 20px;
+	background-position:0px -355px;
+}
+.tu .a-left:hover{
+	background-position: 0px -451px;
+}
+.tu .a-right{
+	left: 630px;
+	background-position:0px -402px;
+}
+.tu .a-right:hover{
+	background-position: 0px -499px;
+}
+.tu ol{
+	position: absolute;
+	top: 319px;
+	left: 580px;
+	transform: translateX(-50%);
+	width: 150px;
+	height: 20px;
+}
+.tu ol li{
+	margin-right: 3px;
+	width: 12px;
+	height: 12px;
+	font-size: 0px;
+	background-color: darkgrey;
+	border-radius: 50%;
+	opacity: 0.5;
+	float: left;
+}
+.tu ol .current{
+	background-color:orangered;
+	opacity: 1;
+	width: 24px;
+	border-radius: 6px;
+}
+.tu .tu-right{
+	width: 305px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.tu .tu-right h3{
+	padding-top: 10px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.tu .tu-right ul{
+	width: 100%;
+}
+.tu .tu-right ul li{
+	width: 100%;
+	line-height: 32px;
+	height: 32px;
+	font-size: 14px;
+}
+.tu .tu-right ul li img{
+	vertical-align: middle;
+}
+.tu .tu-right ul li:hover{
+	color: #F02B2B;
+	background-color: #EDEDED;
+}
+/*使用商品*/
+.sysp{
+	margin: 0px auto;
+	width: 1000px;
+	box-sizing: border-box;
+	height: 1525px;
+	padding: 20px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.cover{
+	height: 980px !important;
+	overflow: hidden;
+}
+.cover .item-cover{
+	display: none !important;
+}
+.cover .three{
+	border-bottom: none !important;  
+}
+.sysp .sy-item{
+	width: 100%;
+	height: 301px;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #EDEDED;
+	padding: 20px 0px;
+}
+.sysp .first{
+	padding-top: 0px;
+}
+.sysp .sy-item>img{
+	float: left;
+}
+.sysp .item-right{
+	float: left;
+	margin-left: 20px;
+	width: 548px;
+	height: 260px;
+}
+.sysp .item-right .item-tit{
+	width: 548px;
+	height: 46px;
+	font-size: 18px;
+	line-height: 46px;
+	color: #333333;
+	cursor: pointer;
+}
+.sysp .item-right .item-tit:hover{
+	color: #FF4444;
+}
+.sysp .first .item-tit>span{
+	float: right;
+	display: inline-block;
+	background: url(../images/experence/pic.png) no-repeat !important;
+    width: 74px;
+    padding-left: 7px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    color: #fff !important;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.sysp .item-right .item-t{
+	padding-left: 20px;
+	width: 528px;
+	color: #999999;
+	background: url(../images/experence/pic.png) no-repeat -98px 5px;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+}
+.sysp .item-right .item-info{
+	margin: 31px 0px;
+	width: 548px;
+	height: 72px;
+	font-size: 18px;
+	color: #999;
+}
+.sysp .item-right .item-info p{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+}
+.sysp .item-right .item-info p span{
+	color: #FF4444;
+}
+.sysp .first .btn{
+	width: 100%;
+	height: 38px;
+}
+.sysp .first .btn button{
+	width: 223px;
+	line-height: 38px;
+	height: 38px;
+	text-align: center;
+	font-size: 18px;
+	color: #FFF !important;
+	border-radius: 3px;
+	background-color: #ff4444 !important;
+	border: none;
+}
+.sysp .first .btn button:hover{
+	background-color: red !important;
+}
+.sysp .sy-item .item-tit span{
+	float: right;
+	display: inline-block;
+	background: url(../images/experence/pic.png) no-repeat;
+    width: 74px;
+    padding-left: 7px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    color: #999;
+    margin-top: 7px;
+    font-size: 12px;
+    background-position: 0 -119px;
+}
+.sysp .sy-item img:hover{
+	opacity: 0.8;
+}
+.sysp .sy-item .btn button{
+	background-color: #ECECEC;
+	color: #333333;
+	width: 223px;
+	line-height: 38px;
+	height: 38px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 3px;
+	border: none;
+}
+.sysp .sy-item .btn button:hover{
+	color: #FF4444;
+}
+.sysp .last{
+	border-bottom: none;
+}
+.sy-cover{
+	width: 100%;
+	height: 35px;
+	background-color: #F8F8F8;
+	line-height: 35px;
+	font-size: 14px;
+	position: relative;
+	bottom: 1px;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+}
+.sy-cover i{
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../images/experence/pic.png") no-repeat;
+	background-position: -104px -110px;
+	width: 15px;
+	height: 35px;
+}
+/*近期精华报告*/
+.report{
+	position: relative;
+	margin: 0px auto;
+	width: 1000px;
+	height: 211px;
+	padding: 0px 20px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.report h3{
+	width: 100%;
+	height: 52px;
+	font: 20px/60px \5FAE\8F6F\96C5\9ED1;
+	color: #f44;
+	line-height: 60px;
+}
+.report .kuang{
+	position: relative;
+	width: 958px;
+	height: 159px;
+	overflow: hidden;
+}
+.report .kuang .wrap{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 3000px;
+	height: 127px;
+}
+.report .kuang .wrap li{
+	float: left;
+	margin-right: 40px;
+	width: 210px;
+	height: 127px;
+}
+.report .kuang .wrap li .report-tit{
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.report .kuang .wrap li .report-tit:hover{
+	color: #FF4444;
+}
+.report .kuang .wrap li .author{
+	padding-left: 26px;
+	background: url(../images/experence/pic.png) no-repeat -96px -31px;
+	margin-bottom: 10px;
+	color: #999999;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.report .kuang .wrap li .author:hover{
+	color: #FF4444;
+}
+.report .kuang .wrap li .text{
+	width: 100%;
+	line-height: 22px;
+	color: #999999;
+	font-size: 12px;
+}
+.report .a-left,.report .a-right{
+	position: absolute;
+	top: 45%;
+	width: 24px;
+	z-index: 999;
+	height: 46px;
+	font-size: 0px;
+	background: url(../images/cookbook/x.png) no-repeat;
+}
+.report .a-left{
+	left: -40px;
+	background-position:0px -355px;
+}
+.report .a-left:hover{
+	background-position: 0px -451px;
+}
+.report .a-right{
+	background-position:0px -402px !important;
+	left: 1024px;
+}
+.report .a-right:hover{
+	background-position: 0px -499px;
+}
+/*商家活动*/
+.active{
+	margin: 0px auto;
+	width: 1000px;
+	height: 251px;
+	padding: 0px 20px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.active h3{
+	width: 100%;
+	height: 60px;
+	font: 20px/60px \5FAE\8F6F\96C5\9ED1;
+	color: #f44;
+	line-height: 60px;
+}
+.pic ul{
+	width: 100%;
+	height: 180px;
+	padding-bottom: 12px;
+}
+.pic li{
+	float: left;
+	width: 220px;
+	height: 180px;
+	margin-right: 26px;
+}
+.pic li:last-child{
+	margin-right: 0px;
+}
+.pic li a{
+	display: block;
+	width: 100%;
+	height: 30px;
+	color: #333333;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+.pic li:hover a{
+	color: #f44;
+}
+/*最新会员报名*/
+.hy{
+	position: relative;
+	margin: 0px auto;
+	width: 1000px;
+	height: 205px;
+	padding: 0px 20px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.hy h3{
+	width: 100%;
+	height: 52px;
+	font: 20px/60px \5FAE\8F6F\96C5\9ED1;
+	color: #f44;
+	line-height: 60px;
+}
+.hy .kuang{
+	position: relative;
+	top: 10px;
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+}
+.hy ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	width: 3000px;
+	height: 130px;
+}
+.hy li{
+	float: left;
+	width: 100px;
+	height: 130px;
+	margin-right: 23px;
+}
+.hy li img{
+	width: 100px;
+	height: 100px;
+}
+.hy li:last-child{
+	margin-right: 0px;
+}
+.hy li a{
+	display: block;
+	width: 100%;
+	height: 30px;
+	color: #333333;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+.hy li:hover a{
+	color: #f44;
+}
+.hy .a-left,.hy .a-right{
+	position: absolute;
+	top: 45%;
+	width: 24px;
+	z-index: 999;
+	height: 46px;
+	font-size: 0px;
+	background: url(../images/cookbook/x.png) no-repeat;
+}
+.hy .a-left{
+	left: -40px;
+	background-position:0px -355px;
+}
+.hy .a-left:hover{
+	background-position: 0px -451px;
+}
+.hy .a-right{
+	left: 1020px;
+	background-position:0px -402px;
+}
+.hy .a-right:hover{
+	background-position: 0px -499px;
+}

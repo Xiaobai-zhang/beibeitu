@@ -1,0 +1,371 @@
+body{
+	background-color: #f8f8f8;
+}
+.header{
+	margin-bottom: 0px !important;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-bottom: 1px solid #DEDEDE;
+	box-shadow: 0 1px 2px #f1f1f1;
+}
+.nav .w{
+	width: 1000px;
+}
+.nav span{
+	display: inline-block;
+	margin-top: 7px;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	background-color: #E2E2E2;
+}
+/*banner*/
+.tu{
+    margin: 20px auto;
+    position: relative;
+	overflow: hidden;
+    width: 1000px;
+    height: 335px;
+	border: 1px solid #ededed;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.tu img{
+	float: left;
+}
+.tu .tu-right{
+	margin-left: 30px;
+	float: left;
+	width: 510px;
+	height: 315px;
+}
+.tu .tu-right h2{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	font-size: 26px;
+}
+.tu-right .tu-select{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	line-height: 25px;
+	margin: 15px 0 15px 0;
+}
+.tu-right .tu-select span{
+	display: inline-block;
+	color: #666;
+	font-size: 14px;
+	background-color: #F8F8F8;
+	padding: 0 7px;
+	cursor: pointer;
+}
+.tu-right .tu-select span:hover{
+	background-color: orangered;
+	color: white;
+}
+.tu-right .tu-text{
+	width: 100%;
+	height: 75px;
+	padding: 15px 0px;
+	color:#999;
+	line-height: 25px;
+	font-size: 14px;
+	border-bottom: 1px dashed #DEDEDE;
+}
+.tu .tu-cover{
+	position: absolute;
+	top: 280px;
+	left: 77px;
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	color: #333333;
+	font-size: 12px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+.tu .tu-cover:hover{
+	color: orangered;
+	background-color: rgba(255,255,255,.8);
+}
+/*content*/
+.content{
+	width: 1000px;
+	height: 1180px;
+	margin: 10px auto;
+}
+.content .c-l{
+	float: left;
+	width: 665px;
+	height: 100%;
+}
+.content .c-r{
+	float: right;
+	width: 305px;
+	height: 100%;
+}
+.content .c-l .attention{
+	width: 665px;
+	padding:0px 15px;
+	height: 277px;
+	box-sizing: border-box;
+	border: 1px solid #EDEDED;
+	background-color: #fff;
+	margin-bottom: 30px;	
+}
+.content .c-l .attention h2{
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	color: #FF4444;
+	font-size: 20px;
+}
+.content .c-l .text{
+	width: 100%;
+	height: 23px;
+	line-height: 22px;
+	overflow: hidden;
+	padding-bottom: 15px;
+	font-size: 14px;
+	color: #666666;
+}
+.content .c-l .text i{
+	margin-right: 15px;
+	font-style: normal;
+}
+.content .c-l .text img{
+	vertical-align: middle;
+}
+.content .c-l .text span{
+	margin-right: 25px;
+}
+.content .c-l .text1{
+	padding: 15px 0px;
+	width: 100%;
+	height: 148px;
+	line-height: 30px;
+	text-indent: 2em;
+	color: #333333;
+	font-size: 14px;
+}
+/*食谱推荐*/
+.sptj{
+	width: 665px;
+	height: 850px;
+	background-color: #fff;
+}
+.sptj h2{
+	padding-left: 15px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	color: #FF4444;
+	font-size: 20px;
+}
+.sptj .sp-item{
+	width: 100%;
+	height: 137px;
+	border-bottom: 1px solid #EDEDED;
+	padding: 29px 0px;
+	overflow: hidden;
+}
+.sptj .sp-item img{
+	vertical-align: middle;
+	float: left;
+	margin-right: 20px;
+}
+.sptj .sp-item .item-right{
+	float: left;
+	margin-top: 12px;
+	width: 401px;
+	height: 106px;
+}
+.sptj .sp-item h1{
+	line-height: 34px;
+	width: 326px;
+	height: 34px;
+	overflow: hidden;
+	color: #333333;
+	font-size: 20px;
+	font-weight: 500;
+}
+.sptj .sp-item .item-text{
+	color: #999999;
+	line-height: 24px;
+	font-size: 12px;
+}
+.sptj .sp-item:hover,.sptj .sp-item:hover h1{
+	background-color: #F7F7F7;
+	color: orangered;
+}
+.sptj .sp-last{
+	border-bottom: none;
+}
+/*相关词条*/
+.xgct{
+	width: 263px;
+	height: 151px;
+	padding: 0px 20px;
+	border: 1px solid #EDEDED;
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+.xgct h2{
+	padding-top: 15px;
+	width: 72px;
+	height: 33px;
+	border-bottom: 1px #ededed solid;
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: -1px;
+	border-bottom: 2px solid #ff4444;
+	font-weight: 500;
+}
+.xgct .xg-text{
+	border-top: 1px solid #ededed;
+	width: 100%;
+	padding:15px 0px;
+	color: #999999;
+}
+.xgct .xg-text span:hover{
+	color: #333333;
+}
+.xgct .xg-text span{
+	font-size: 12px;
+	cursor: pointer;
+	color: #999999;
+}
+/*相关文章*/
+.xgwz{
+	width: 100%;
+	height: 536px;
+	padding:0px 20px;
+	border: 1px solid #EDEDED;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+.xgwz h2{
+	padding-top: 15px;
+	width: 72px;
+	height: 33px;
+	border-bottom: 1px #ededed solid;
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: -1px;
+	border-bottom: 2px solid #ff4444;
+	font-weight: 500;
+}
+.xgwz li{
+	margin: 0px auto;
+	list-style: square;
+	width: 238px;
+	height: 60px;
+	font-size: 13px;
+	line-height: 60px;
+	color: #666666;
+	border-bottom: 1px dashed #EDEDED;
+}
+.xgwz li:hover{
+	color: orangered;
+	background-color: #F7F5F7;
+}
+.xgwz li:first-child{
+	border-top: 1px solid #EDEDED;
+}
+.xgwz li:last-child{
+	border-bottom: none;
+}
+/*论坛精选*/
+.ltjx{
+	width: 100%;
+	height: 395px;
+	padding: 0px 20px;
+	border: 1px #ededed solid;
+	background: #fff;
+	box-sizing: border-box;
+}
+.ltjx h2{
+	padding-top: 15px;
+	width: 72px;
+	height: 33px;
+	border-bottom: 1px #ededed solid;
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: -1px;
+	border-bottom: 2px solid #ff4444;
+	font-weight: 500;
+}
+.ltjx li:first-child{
+	border-top: 1px solid #EDEDED;
+}
+.ltjx li{
+	width: 263px;
+	border-bottom: 1px solid #EDEDED;
+	height: 68px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.ltjx li:last-child{
+	border-bottom: none;
+}
+.ltjx li .lt-left{
+	float: left;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	margin: 8px 10px 0px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	color:orangered;
+}
+.ltjx li .lt-left img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.ltjx li .lt-right{
+	float: left;
+	width: 185px;
+	height: 54px;
+}
+.ltjx li .p-tit{
+	width: 179px;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 8px;
+	font-size: 12px;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.ltjx li .p-author{
+	height: 20px;
+    line-height: 20px;
+    padding-left: 23px;
+    color: #999;
+    font-size: 12px;
+    background: url(../images/recommon/x.png) no-repeat 0 -107px;
+    cursor: pointer;
+}
+.ltjx li:nth-child(4) .lt-left,.ltjx li:nth-child(5) .lt-left{
+	color:darkgrey ;
+}
+.ltjx li:hover img{
+	opacity: 1;
+}

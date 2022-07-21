@@ -1,0 +1,503 @@
+body{
+	background-color: #f8f8f8;
+}
+.header{
+	margin-bottom: 0px !important;
+}
+/*nav*/
+.nav{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-bottom: 1px solid #DEDEDE;
+	box-shadow: 0 1px 2px #f1f1f1;
+}
+.nav .w{
+	margin: 0px auto;
+	width: 1000px;
+	height: 50px;
+}
+.nav .w li{
+	float: left;
+	text-align: center;
+	height: 47px;
+	width: 15%;
+	line-height: 50px;
+	font-size: 18px;
+	color: #333333 !important;
+	border-right: 1px #ececec solid;
+	cursor: pointer;
+}
+.nav .w li:last-child{
+	text-align: right;
+	width: 300px;
+	height: 50px;
+	font-size: 14px;
+	border-right: none;
+}
+.nav .fh{
+	width: 21% !important;
+	font-size: 12px;
+	text-align: left !important;
+}
+.nav .w li:last-child a{
+	color: #333333;
+}
+.nav .w li:last-child a:first-child{
+	color: orangered;
+}
+.nav .w li:hover{
+	color: orangered !important;
+}
+.nav .w .right-nav:hover{
+	color: #333333 !important;
+}
+.nav .w .right-nav a:hover{
+	color: orangered;
+}
+/*banner*/
+.tu{
+    margin: 20px auto;
+    position: relative;
+	overflow: hidden;
+    width: 1000px;
+    height: 350px;
+	border: 1px solid #ededed;
+	background-color: #fff;
+}
+.tu .wrap{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 3000px;
+	height: 100%;
+}
+.tu .tu-li{
+	display: block !important;
+}
+.tu .wrap li{
+	display: none;
+	padding: 5px;
+	float: left;
+	width: 660px;
+	height: 100%;
+}
+.tu .wrap li>img{
+	float: left;
+}
+.tu .wrap li .right{
+	float:right;
+	width: 304px;
+	height: 340px;
+}
+.tu .wrap li .right .title{
+	width: 100%;
+	height: 75px;
+	line-height: 90px;
+}
+.tu .wrap li .right .title a{
+	color: #b2b2b2;
+	font-size: 14px;
+}
+.tu .wrap li .right .title a:hover{
+	color: #000;
+}
+.tu .wrap li .right .text-title{
+	width: 304px;
+	height: 52px;
+}
+.tu .wrap li .right .text-title a{
+	width: 240px;
+	line-height: 48px;
+	color: #333;
+	font-size: 22px;
+}
+.tu .wrap li .right .text-title a:hover{
+	color: orangered;
+}
+.tu .wrap li .right .text{
+	width: 240px;
+	height: 96px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 24px;
+}
+.tu .a-left,.tu .a-right{
+	position: absolute;
+	top: 45%;
+	width: 24px;
+	z-index: 999;
+	height: 46px;
+	display: none;
+	font-size: 0px;
+	background: url(../images/cookbook/x.png) no-repeat;
+}
+.tu:hover .a-left,.tu:hover .a-right{
+	display: block;
+}
+.tu .a-left{
+	left: 20px;
+	background-position:0px -355px;
+}
+.tu .a-left:hover{
+	background-position: 0px -451px;
+}
+.tu .a-right{
+	left: 630px;
+	background-position:0px -402px;
+}
+.tu .a-right:hover{
+	background-position: 0px -499px;
+}
+.tu ol{
+	position: absolute;
+	top: 319px;
+	left: 580px;
+	transform: translateX(-50%);
+	width: 150px;
+	height: 20px;
+}
+.tu ol li{
+	margin-right: 3px;
+	width: 12px;
+	height: 12px;
+	font-size: 0px;
+	background-color: darkgrey;
+	border-radius: 50%;
+	opacity: 0.5;
+	float: left;
+}
+.tu ol .current{
+	background-color:orangered;
+	opacity: 1;
+	width: 24px;
+	border-radius: 6px;
+}
+.tu .tu-right{
+	width: 305px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.tu .tu-right .bt{
+	width: 100%;
+    height: 58px;
+    font-size: 14px;
+    line-height: 58px;
+}
+.pTit{
+	width: 100%;
+	height: 42px;
+	font-weight: 500;
+    line-height: 42px;
+    font-size: 18px;
+    color: #333;
+}
+
+.tu .tu-right .des{
+	height: 72px;
+	color: #999999;
+	line-height: 24px;
+	font-size: 12px;	
+}
+.tu .tu-right ul{
+	width: 100%;
+}
+.tu .tu-right ul li{
+	width: 100%;
+	line-height: 32px;
+	height: 32px;
+	font-size: 14px;
+	list-style: circle;
+}
+.tu .tu-right ul li img{
+	vertical-align: middle;
+}
+.tu .tu-right ul li:hover{
+	color: #F02B2B;
+	background-color: #EDEDED;
+}
+/*编辑精选*/
+.select{
+	margin: 25px auto;
+	overflow: hidden;
+    width: 1000px;
+    height: 272px;
+}
+.select .select-left{
+	float: left;
+	width: 666px;
+	height: 100%;
+	background-color: #fff;
+	border: 1px solid #ededed;
+	box-sizing: border-box;
+	padding-left: 4px;
+}
+.select .select-left .select-title{
+	width: 100%;
+	height: 54px;
+	color: #ff4444;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	line-height: 54px;
+}
+.select .select-left .select-content{
+	width: 100%;
+	height: 220px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	padding-top: 9px;
+}
+.select .select-left .select-content .c-l{
+	float: left;
+	width: 121px;
+	height: 189px;
+	background-color: #fff
+}
+.select .select-left .select-content ul li{
+	width: 100%;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	border: 1px solid #ededed;
+	margin-top: -1px;
+}
+.select .select-left .select-content ul li:first-child{
+	margin-top: 0px;
+}
+.select .select-left .select-content ul li a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	color: #333333;
+}
+.select .c-l-current{
+	color: #fff !important;
+	background-color: orangered;
+}
+.select .c-r{
+	float: left;
+	position: relative;
+	margin-left: 1px;
+	width: 504px;
+	height: 189px;
+	overflow: hidden;
+}
+.select .c-r .xx{
+	display: block !important;
+}
+.select .c-r .r-box{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display:none;
+}
+.select .c-r .r-box img{
+	float: left;
+}
+.select .c-r .r-box .text{
+	float: right;
+	width: 232px;
+	height: 100%;
+}
+.select .c-r .r-box .text .title{
+	width: 100%;
+	height: 26;
+	padding-bottom: 15px;
+	line-height: 26px;
+	cursor: pointer;
+}
+.select .c-r .r-box .text .title a{
+	display: inline-block;
+	font-size: 16px;
+	color: #333333;
+}
+.select .c-r .r-box .text .title a:hover{
+	color: orangered;
+}
+.select .c-r .r-box .text .wb{
+	width: 232px;
+	height: 80px;
+	font-size: 12px;
+	
+	color: #999;
+	line-height: 20px;
+}
+.select .check{
+	position: absolute;
+
+	bottom: 0;
+	right: 0;
+}
+.select .check a{
+	background: url(../images/cookbook/x.png) no-repeat 52px -332px;
+    color: #666;
+    display: inline;
+    float: right;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 12px;
+    padding-right: 20px;
+    transition: all 0.4s ease-in 0s;
+    width: 50px;
+}
+.select .select-right{
+	float: right;
+	background-color: #fff;
+	width: 295px;
+	height: 260px;
+	border: 1px solid #EDEDED;
+	padding: 5px;
+}
+/*book1*/
+.book1{
+	margin: 0 auto 20px;
+	width: 1000px;
+	height: 434px;
+}
+.book1 .l{
+	float: left;
+	width: 660px;
+	height: 100%;
+	background-color: #fff;
+}
+.book1 .title{
+	padding-top: 8px;
+	width: 100%;
+	height: 43px;
+	line-height: 48px;
+	border-bottom: 1px #ededed solid;
+	color: #FF4444;
+	font-size: 20px;
+	padding-left: 15px;
+}
+.book1 .c1:hover{
+	background-color: #F1F1F1;
+}
+.book1 .c1{
+	width: 660px;
+	height: 185px;
+}
+.book1 .pic{
+	float: left;
+    margin: 20px 20px 0 0;
+}
+.book1 .p1{
+	padding-top: 40px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    overflow: hidden;
+}
+.book1 .p2 li{
+    line-height: 28px;
+    height: 28px;
+    overflow: hidden;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 190px;
+    float: left;
+    height: 28px;
+    background: url(../images/recommon/x.png) no-repeat 0 10px;
+}
+.book1 .p1:hover{
+	color: #FF0000;
+}
+.book1 .p2 li:hover{
+	color: #FF0000;
+}
+.book1 .line{
+	border-top: 1px dashed #ececec;
+    height: 0px;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.b1-c-r{
+	float: right;
+	width: 306px;
+	height: 100%;
+	padding:0px 20px 20px 20px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.ltjx h2{
+	padding-top: 15px;
+	width: 72px;
+	height: 33px;
+	border-bottom: 1px #ededed solid;
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: -1px;
+	border-bottom: 2px solid #ff4444;
+	font-weight: 500;
+}
+.ltjx li:first-child{
+	border-top: 1px solid #EDEDED;
+}
+.ltjx li{
+	width: 263px;
+	border-bottom: 1px solid #EDEDED;
+	height: 71px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.ltjx li:last-child{
+	border-bottom: none;
+}
+.ltjx li .lt-left{
+	float: left;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	margin: 8px 10px 0px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	color:orangered;
+}
+.ltjx li .lt-left img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.ltjx li .lt-right{
+	float: left;
+	width: 185px;
+	height: 54px;
+}
+.ltjx li .p-tit{
+	width: 179px;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 8px;
+	font-size: 12px;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.ltjx li .p-author{
+	height: 20px;
+    line-height: 20px;
+    padding-left: 23px;
+    color: #999;
+    font-size: 12px;
+    background: url(../images/recommon/x.png) no-repeat 0 -107px;
+    cursor: pointer;
+}
+.ltjx li:nth-child(4) .lt-left,.ltjx li:nth-child(5) .lt-left{
+	color:darkgrey ;
+}
+.ltjx li:hover img{
+	opacity: 1;
+}

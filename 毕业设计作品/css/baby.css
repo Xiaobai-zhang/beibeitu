@@ -1,0 +1,491 @@
+.nav .spfl{
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bolder;
+    background-color: pink;
+}
+.n-left,.n-right{
+    display: inline-block;
+}
+.n-right{
+    width: 600px;
+    height: 40px;
+}
+.n-right a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: 460px;
+	margin-bottom: 20px;
+}
+.banner .w{
+    height: 100%;
+}
+.banner .b-nav{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: #F7F5F7;
+}
+.banner .b-nav ul{
+    width: 100%;
+    height: 100%;
+}
+.banner .b-nav ul li{
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    padding: 0 20px;
+}
+.banner .b-nav ul li:last-child{
+    border: none;
+}
+.banner .b-nav ul li .han1{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+.banner .b-nav ul li .han1 a{
+    color: black;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.banner .b-nav ul li .han1 img{
+    vertical-align: middle;
+    width: 35px;
+}
+.banner .b-nav ul li .han2{
+    width: 100%;
+    height: 20px;
+}
+.banner .b-nav ul li .han2 a{
+	width: 48px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+    font-size: 10px;
+    color: black;
+    display: inline-block;
+}
+.banner .b-nav ul li:hover{
+    background-color: pink;
+}
+.b-banner{
+	float: left;
+    margin-left: 5px;
+    width: 830px;
+    height: 100%;
+}
+.tu{
+	position: relative;
+	overflow: hidden;
+    width: 830px;
+    height: 340px;
+}
+.tu .wrap{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 3000px;
+	height: 100%;
+}
+.tu .wrap li{
+	float: left;
+	width: 840px;
+	height: 340px;
+}
+.tu ol{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50px;
+	height: 20px;
+}
+.tu ol li{
+	margin-right: 10px;
+	width: 15px;
+	height: 15px;
+	background-color: #fff;
+	border-radius: 50%;
+	opacity: 0.5;
+	float: left;
+}
+.tu ol .current{
+	background-color:orangered;
+	opacity: 1;
+}
+.tu .left{
+	cursor: pointer;
+    position: absolute;
+    width: 24px;
+    height: 44px;
+    top: 50%;
+    margin-top: -22px;
+    z-index: 3;
+    background: url(../images/baby/left.png) no-repeat;
+}
+.tu .right{
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	margin-top: -22px;
+	width: 24px;
+	height: 44px;
+	z-index: 3;
+	cursor: pointer;
+	transform: rotate(180deg);
+	background: url(../images/baby/left.png) no-repeat;
+}
+.wrap li{
+	float: left;
+}
+.banner-sp{
+	width: 830px;
+	height: 115px;
+	margin-top: 5px;
+}
+.banner-sp .sp-item{
+	float: left;
+	width: 270px;
+	height: 115px;
+	margin-right: 10px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.banner-sp .sp-item:last-child{
+	margin-right: 0px;
+}
+.banner-sp .sp-item>div{
+	float: left;
+}
+.banner-sp .sp-item .item-wz{
+	width: 160px;
+	height: 100%;
+	color: #333;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	font-size: 12px;
+	overflow:hidden;
+}
+.banner-sp .sp-item .item-price{
+	margin-top: 10px;
+	color: #333;
+	font-size: 12px;
+	font-weight: 700;
+}
+.banner-sp .sp-item .item-tp{
+	width: 100px;
+	height: 100%;
+	text-align: center;
+}
+.banner-sp .sp-item .item-tp img{
+	padding-top: 7px;
+}
+.banner-sp .sp-item:hover .item-wz{
+	color: red;
+}
+.aside{
+	float: right;
+	background-color: pink;
+	height: 228px;
+	width: 190px;
+}
+.aside .a-sp{
+	position: relative;
+}
+.aside .a-sp h3{
+	position: absolute;
+    width: 190px;
+    height: 21px;
+    top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 21px;
+    overflow: hidden;
+    z-index: 100;
+}
+.aside .a-sp p{
+	position: absolute;
+    width: 190px;
+    height: 31px;
+    top: 41px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 31px;
+    overflow: hidden;
+    z-index: 100;
+}
+/*大牌好物*/
+.dphwj{
+	margin-top: 20px;
+	width: 100%;
+	height: 300px;
+}
+.w{
+	width: 1230px;
+	height: 100%;		
+}
+.dphwj .box{
+	float: left;
+	margin: 0 auto;
+	position: relative;
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	background-color: rgba(50, 134, 227, 0.72);
+	cursor: pointer;
+	transition: width 0.5s;
+	transition-duration: 500ms;
+}
+.dphwj .box1{
+	position: relative;
+	float: left;
+	width: 207px;
+	height: 300px;
+	background-color: #fff;
+	cursor: pointer;
+	box-shadow: -20px -2px 10px -13px #F7F7F7 inset;
+	transition: width 0.5s;
+	transition-duration: 500ms;
+}
+.dphwj .box .text{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	font-size: 18px;
+	color: white;
+	transition: left 0.5s;
+	transition-duration: 500ms;
+	font-weight: 500;
+}
+.dphwj .box .wz{
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	font-size: 14px;
+	color: white;
+	transition-duration: 500ms;
+	transition: left 0.5s;
+	font-weight: 500;
+}
+.dphwj .box1 .wz{
+	position: absolute;
+	top: 60px;
+	left:50%;
+	width: 100%;
+	transform: translateX(-50%);
+	font-size: 14px;
+	color: black;
+	transition: left 0.2s;
+	transition-duration: 500ms;
+	font-weight: 500;
+	text-align: center;
+}
+.dphwj .box1 .text{
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: black;
+	font-size: 18px;
+	transition: all 0.2s;
+	transition-duration: 500ms;
+	font-weight: 500;
+}
+.dphwj .box .img{
+	position: absolute;
+	right: 25px;
+	bottom: 0px;
+	z-index: 999;
+}
+.box1 img{
+	position: absolute;
+	right: 25px;
+	bottom: 40px;
+}
+.box1 .img img{
+	width: 150px;
+	height: 150px;
+	transition:all 0.2s;
+	transition-duration: 500ms;
+}
+.box:hover img{
+	width: 200px;
+	height: 200px;
+	transition:all 0.2s;
+	transition-duration: 500ms;
+}
+.box .d-btn{
+	width: 20px;
+	margin: 80px 2px;
+	font-size: 14px;
+	padding: 5px 24px;
+	cursor: pointer;
+	opacity: 1;
+	background: rgb(227, 50, 51);
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	border-radius: 18px;
+	transition: all 0.2s;
+	transition-duration: 500ms;
+}
+.box1 .d-btn{
+	width: 20px;
+	margin: 80px 70px;
+	font-size: 14px;
+	padding: 5px 24px;
+	opacity: 0;
+	cursor: pointer;
+	background: rgb(227, 50, 51);
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	border-radius: 18px;
+}
+/*特色精品馆*/
+.tsjpg{
+	margin-top: 30px;
+	width: 100%;
+	height: 340px;
+/*	background-color: pink;
+*/}
+.tsjpg h1{
+	padding-bottom: 20px;
+}
+.tsjpg .t-sp{
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+}
+.tsjpg .t-sp li{
+	float: left;
+	width: 192px;
+	height: 272px;
+	margin-right: 15px;
+	box-sizing: border-box;
+	border-radius:6px 6px 0px 0px;
+}
+.tsjpg .t-sp li:last-child{
+	margin-right: 0px;
+}
+.tsjpg .t-sp li:hover{
+	border: 1px solid #E12228;
+}
+/*品质奶粉*/
+.p-title{
+	margin-top: 20px;
+}
+.pznf{
+	margin-top: 20px;
+	width: 100%;
+	height: 295px;
+}
+.pznf .p-tu{
+	width: 230px;
+	height: 270px;
+	float: left;
+	vertical-align: top;
+}
+.pznf ul{
+	float: left;
+	margin-left: 10px;
+	width: 950px;
+	height: 295px;
+	vertical-align: top;
+}
+.pznf ul li{
+	display: inline-block;
+	width: 190px;
+	height: 265.2px;
+	vertical-align: top;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 15px;
+	margin-right: -5px;
+	text-overflow: ellipsis;
+	box-sizing: border-box;
+	border: 1px solid #F7F5F7;
+}
+.pznf ul li .wz{
+	width: 100%;
+	height: 36px;
+	font-size: 14px;
+	display:-webkit-box;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+.pznf ul li .price{
+	color: #f02b2b;
+	width: 100%;
+	text-align: left;
+	font-size: 16px;
+	margin-top: 5px
+}
+.pznf ul li:hover img{
+	opacity: 0.8;
+}
+/*优选店铺*/
+.yxdp{
+	margin-top: 10px;
+	width: 100%;
+	height: 592px;
+}
+.yxdp .y-item{
+	float: left;
+	width: 246px;
+	height:286px;
+	padding-top: 10px;
+	text-align: center;
+}
+.yxdp .y-item:hover .y-btn{
+	background-color: #E2231A;
+	color: white;
+}
+.yxdp .y-item .yw1{
+	width: 100%;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #85878c;
+    text-align: center;
+    font-weight: 500;
+}
+.yxdp .y-item>img:first-child{
+	width: 90px;
+	height: 30px;
+}
+.yxdp .y-item .yw2{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	text-align: center;
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	color: #bec2c6;
+}
+.yxdp .y-item .y-btn{
+	border:1px solid #E2231A;
+	color: #E2231A;
+	width: 78px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin: 8px auto;
+}
